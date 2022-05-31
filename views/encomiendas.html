@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es-la">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="../css/style.css">
+   <title>Santo Bocado</title>
+</head>
+
+<body id="encomiendas">
+
+   <!-- INICIA HEADER -->
+
+   <header>
+      <nav>
+         <a href="../index.html">
+            <div class="santo-bocado">
+               <img src="../img/santo_bocado.jpg" alt="logo Santo Bocado" id="logo">
+               <h1>Santo Bocado</h1>
+            </div>
+         </a>
+         <div class="enlaces">
+            <ul id="barra-nav">
+               <li><a href="./nosotros.html">Sobre Nosotros</a></li>
+               <li><a href="./encomiendas.html">Encomiendas</a></li>
+               <li><a href="./carrito.html">Carrito</a></li>
+               <li><a href="./registro-ingreso.html">Mi cuenta</a></li>
+            </ul>
+         </div>
+      </nav>
+   </header>
+
+   <!-- INICIA MAIN -->
+
+   <main>
+      <section>
+         <form action="" class="envios">
+            <h2>Consulta el precio de tu envio</h2>
+            <div class="datos-de-envio">
+               <label for="provincia">Seleccioná tu provincia</label>
+               <select name="provincia" id="provincia">
+                  <option value="Buenos Aires">Buenos Aires</option>
+                  <option value="Buenos Aires Capital">Buenos Aires Capital</option>
+                  <option value="Catamarca">Catamarca</option>
+                  <option value="Chaco">Chaco</option>
+                  <option value="Chubut">Chubut</option>
+                  <option value="Cordoba">Cordoba</option>
+                  <option value="Corrientes">Corrientes</option>
+                  <option value="Entre Rios">Entre Rios</option>
+                  <option value="Formosa">Formosa</option>
+                  <option value="Jujuy">Jujuy</option>
+                  <option value="La Pampa">La Pampa</option>
+                  <option value="La Rioja">La Rioja</option>
+                  <option value="Mendoza">Mendoza</option>
+                  <option value="Misiones">Misiones</option>
+                  <option value="Neuquen">Neuquen</option>
+                  <option value="Rio Negro">Rio Negro</option>
+                  <option value="Salta">Salta</option>
+                  <option value="San Juan">San Juan</option>
+                  <option value="San Luis">San Luis</option>
+                  <option value="Santa Cruz">Santa Cruz</option>
+                  <option value="Santa Fe">Santa Fe</option>
+                  <option value="Santiago del Estero">Santiago del Estero</option>
+                  <option value="Tierra del Fuego">Tierra del Fuego</option>
+                  <option value="Tucuman">Tucuman</option>
+               </select>
+            </div>
+            <div class="enlinea">
+               <label for="codigo-postal">Ingresá tu código postal</label>
+               <input type="text" name="codigo-postal" id="codigo-postal" maxlength="4">
+            </div>
+            <input type="submit" value="Calcular" class="boton">
+         </form>
+         <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13003.278683795756!2d-58.800104183743876!3d-35.43449686976862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bd696ac2d44a9d%3A0xb0a17f78b40d449b!2sPje.%20Fazio%201477%2C%20Buenos%20Aires%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1652310193301!5m2!1ses!2sar"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </section>
+   </main>
+
+   <!-- INICIA FOOTER -->
+
+   <footer>
+      <div>Productos artesanales y sin conservantes</div>
+      <div>
+         <a href="https://www.instagram.com/santobocadomonte/?hl=es-la" target="blank"><img src="../img/icono-ig.png"
+               alt="enlace a instagram" width="30px"></a>
+      </div>
+   </footer>
+</body>
+
+</html>
