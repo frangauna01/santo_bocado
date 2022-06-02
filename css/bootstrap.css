@@ -1,0 +1,27 @@
+a {
+   font-size: 1rem;
+}
+
+nav {
+   background-color: #AE9043;
+}
+
+body {
+   background-image: url(../img/bfc707c59c5bf849301dd7460aa8d15e.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.logo {
+   border-radius: 50%;
+   width: 6rem;
+}
+
+footer {
+   background-color: #000;
+}
+
+footer p {
+   color:#fff ;
+}
