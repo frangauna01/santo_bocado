@@ -18,27 +18,42 @@
    <!-- INICIA HEADER -->
 
    <header>
+
       <div class="conteiner">
-         <nav class="navbar navbar-expand-md">
-            <div class="container d-flex justify-content-between">
-               <a href="./index.html" class="navbar-brand">
+
+         <nav class="navbar navbar-expand-lg">
+
+            <div class="container-fluid d-flex flex-column">
+               <a href="./index.html" class="navbar-brand mx-0">
                   <img src="./img/santo_bocado.jpg" alt="Logo" class="logo">
                </a>
-               <ul class="navbar-nav ml-auto">
-                  <li class="nav-item">
-                     <a href="./views/nosotros.html" class="nav-link text-dark"><b>Sobre Nosotros</b></a>
-                  </li>
-                  <li class="nav-item">
-                     <a href="./views/encomiendas.html" class="nav-link text-dark"><b>Encomiendas</b></a>
-                  </li>
-                  <li class="nav-item">
-                     <a href="./views/carrito.html" class="nav-link text-dark"><b>Carrito</b></a>
-                  </li>
-                  <li class="nav-item">
-                     <a href="./views/registro-ingreso.html" class="nav-link text-dark"><b>Mi cuenta</b></a>
-                  </li>
-               </ul>
+               <button class="navbar-toggler my-2" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false"
+                  aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarToggler">
+                  <a href="#" class="navbar-brand d-none">
+                     <ul class="navbar-nav ml-auto w-100 gap-3 justify-content-center pt-3">
+                        <li class="nav-item">
+                           <a href="./views/nosotros.html" class="nav-link text-dark"><b>Sobre Nosotros</b></a>
+                        </li>
+                        <li class="nav-item">
+                           <a href="./views/encomiendas.html" class="nav-link text-dark"><b>Encomiendas</b></a>
+                        </li>
+                        <li class="nav-item">
+                           <a href="./views/carrito.html" class="nav-link text-dark"><b>Carrito</b></a>
+                        </li>
+                        <li class="nav-item">
+                           <a href="./views/registro-ingreso.html" class="nav-link text-dark"><b>Mi cuenta</b></a>
+                        </li>
+                     </ul>
+                  </a>
+
+               </div>
+
             </div>
+
          </nav>
       </div>
    </header>
@@ -47,7 +62,7 @@
 
    <main>
       <div class="container-fluid">
-         <ul class="nav nav-pills nav-fill">
+         <ul class="nav nav-pills nav-fill py-2">
             <li class="nav-item">
                <a href="#" class="nav-link active bg-dark">Todo</a>
             </li>
@@ -64,120 +79,122 @@
                <a href="#" class="nav-link text-dark">Licores</a>
             </li>
          </ul>
-         <section id="productos-destacados">
-            <h2>PRODUCTOS DESTACADOS</h2>
-            <section class="row row-cols-1 row-cols-md-3 g-4">
-               <article class="card mb-4">
-                  <div class="row g-0">
-                     <picture class="col-md-4">
-                        <img src="./img/mango_maracuya.jpg" alt="foto del producto 1" class="img-fluid rounded-start">
-                     </picture>
-                     <div class="col-md-8">
-                        <div class="card-body">
-                           <h4 class="card-title">Nombre del producto</h4>
-                           <p class="card-text"> Este producto esta elaborado con ........... </p>
-                           <p class="card-text"><small class="text-muted">$$$</small></p>
-                           <button>COMPRAR</button>
-                        </div>
-                     </div>
-                  </div>
-               </article>
 
-               <article class="card mb-4">
-                  <div class="row g-0">
-                     <picture class="col-md-4">
-                        <img src="./img/mango_maracuya.jpg" alt="foto del producto 2" class="img-fluid rounded-start">
-                     </picture>
-                     <div class="col-md-8">
-                        <div class="card-body">
-                           <h4 class="card-title">Nombre del producto</h4>
-                           <p class="card-text"> Este producto esta elaborado con ........... </p>
-                           <p class="card-text"><small class="text-muted">$$$</small></p>
-                           <button>COMPRAR</button>
-                        </div>
+         <h2 class="mt-4">PRODUCTOS DESTACADOS</h2>
+         <section class="row row-cols-1 row-cols-md-3 p-4 justify-content-center">
+            <article class="card p-0">
+               <div class="row g-0">
+                  <picture class="col-md-5">
+                     <img src="./img/mango_maracuya.jpg" alt="foto del producto 1" class="img-fluid rounded-start">
+                  </picture>
+                  <div class="col-md-7 d-flex align-items-center">
+                     <div class="card-body">
+                        <h4 class="card-title">Nombre del producto</h4>
+                        <p class="card-text"> Este producto esta elaborado con ........... </p>
+                        <p class="card-text"><small class="text-muted">$$$</small></p>
+                        <button>COMPRAR</button>
                      </div>
                   </div>
-               </article>
+               </div>
+            </article>
 
-               <article class="card mb-4">
-                  <div class="row g-0">
-                     <picture class="col-md-4">
-                        <img src="./img/mango_maracuya.jpg" alt="foto del producto 3" class="img-fluid rounded-start">
-                     </picture>
-                     <div class="col-md-8">
-                        <div class="card-body">
-                           <h4 class="card-title">Nombre del producto</h4>
-                           <p class="card-text"> Este producto esta elaborado con ........... </p>
-                           <p class="card-text"><small class="text-muted">$$$</small></p>
-                           <button>COMPRAR</button>
-                        </div>
+            <article class="card p-0">
+               <div class="row g-0">
+                  <picture class="col-md-5">
+                     <img src="./img/mango_maracuya.jpg" alt="foto del producto 1" class="img-fluid rounded-start">
+                  </picture>
+                  <div class="col-md-7 d-flex align-items-center">
+                     <div class="card-body">
+                        <h4 class="card-title">Nombre del producto</h4>
+                        <p class="card-text"> Este producto esta elaborado con ........... </p>
+                        <p class="card-text"><small class="text-muted">$$$</small></p>
+                        <button>COMPRAR</button>
                      </div>
                   </div>
-               </article>
+               </div>
+            </article>
 
-               <article class="card mb-4">
-                  <div class="row g-0">
-                     <picture class="col-md-4">
-                        <img src="./img/mango_maracuya.jpg" alt="foto del producto 1" class="img-fluid rounded-start">
-                     </picture>
-                     <div class="col-md-8">
-                        <div class="card-body">
-                           <h4 class="card-title">Nombre del producto</h4>
-                           <p class="card-text"> Este producto esta elaborado con ........... </p>
-                           <p class="card-text"><small class="text-muted">$$$</small></p>
-                           <button>COMPRAR</button>
-                        </div>
+            <article class="card p-0">
+               <div class="row g-0">
+                  <picture class="col-md-5">
+                     <img src="./img/mango_maracuya.jpg" alt="foto del producto 1" class="img-fluid rounded-start">
+                  </picture>
+                  <div class="col-md-7 d-flex align-items-center">
+                     <div class="card-body">
+                        <h4 class="card-title">Nombre del producto</h4>
+                        <p class="card-text"> Este producto esta elaborado con ........... </p>
+                        <p class="card-text"><small class="text-muted">$$$</small></p>
+                        <button>COMPRAR</button>
                      </div>
                   </div>
-               </article>
+               </div>
+            </article>
 
-               <article class="card mb-4">
-                  <div class="row g-0">
-                     <picture class="col-md-4">
-                        <img src="./img/mango_maracuya.jpg" alt="foto del producto 1" class="img-fluid rounded-start">
-                     </picture>
-                     <div class="col-md-8">
-                        <div class="card-body">
-                           <h4 class="card-title">Nombre del producto</h4>
-                           <p class="card-text"> Este producto esta elaborado con ........... </p>
-                           <p class="card-text"><small class="text-muted">$$$</small></p>
-                           <button>COMPRAR</button>
-                        </div>
+            <article class="card p-0">
+               <div class="row g-0">
+                  <picture class="col-md-5">
+                     <img src="./img/mango_maracuya.jpg" alt="foto del producto 1" class="img-fluid rounded-start">
+                  </picture>
+                  <div class="col-md-7 d-flex align-items-center">
+                     <div class="card-body">
+                        <h4 class="card-title">Nombre del producto</h4>
+                        <p class="card-text"> Este producto esta elaborado con ........... </p>
+                        <p class="card-text"><small class="text-muted">$$$</small></p>
+                        <button>COMPRAR</button>
                      </div>
                   </div>
-               </article>
+               </div>
+            </article>
 
-               <article class="card mb-4">
-                  <div class="row g-0">
-                     <picture class="col-md-4">
-                        <img src="./img/mango_maracuya.jpg" alt="foto del producto 1" class="img-fluid rounded-start">
-                     </picture>
-                     <div class="col-md-8">
-                        <div class="card-body">
-                           <h4 class="card-title">Nombre del producto</h4>
-                           <p class="card-text"> Este producto esta elaborado con ........... </p>
-                           <p class="card-text"><small class="text-muted">$$$</small></p>
-                           <button>COMPRAR</button>
-                        </div>
+            <article class="card p-0">
+               <div class="row g-0">
+                  <picture class="col-md-5">
+                     <img src="./img/mango_maracuya.jpg" alt="foto del producto 1" class="img-fluid rounded-start">
+                  </picture>
+                  <div class="col-md-7 d-flex align-items-center">
+                     <div class="card-body">
+                        <h4 class="card-title">Nombre del producto</h4>
+                        <p class="card-text"> Este producto esta elaborado con ........... </p>
+                        <p class="card-text"><small class="text-muted">$$$</small></p>
+                        <button>COMPRAR</button>
                      </div>
                   </div>
-               </article>
-            </section>
+               </div>
+            </article>
+
+            <article class="card p-0">
+               <div class="row g-0">
+                  <picture class="col-md-5">
+                     <img src="./img/mango_maracuya.jpg" alt="foto del producto 1" class="img-fluid rounded-start">
+                  </picture>
+                  <div class="col-md-7 d-flex align-items-center">
+                     <div class="card-body">
+                        <h4 class="card-title">Nombre del producto</h4>
+                        <p class="card-text"> Este producto esta elaborado con ........... </p>
+                        <p class="card-text"><small class="text-muted">$$$</small></p>
+                        <button>COMPRAR</button>
+                     </div>
+                  </div>
+               </div>
+            </article>
+
          </section>
+
       </div>
    </main>
 
    <!-- INICIA FOOTER -->
 
-   <footer>
-      <div class="container">
+   <footer class="position-relative vw-100 bottom-0">
+      
+      <div class="container-lg">
          <div class="row">
             <div class="col">
                <p class="text-center m-3">Santo Bocado</p>
                <p class="text-center m-3">Todos los productos son elaborados artesanalmente y con amor</p>
                <div class="d-flex justify-content-center m-3">
-                  <a href="https://www.instagram.com/santobocadomonte/?hl=es-la" target="_blank"><img src="./img/icono-ig.png"
-                        alt="Instagram" width="40" height="40"></a>
+                  <a href="https://www.instagram.com/santobocadomonte/?hl=es-la" target="_blank"><img
+                        src="./img/icono-ig.png" alt="Instagram" width="40" height="40"></a>
                </div>
             </div>
          </div>
