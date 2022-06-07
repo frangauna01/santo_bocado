@@ -9,9 +9,12 @@ nav {
 body {
    background-image: url(../img/bfc707c59c5bf849301dd7460aa8d15e.jpg);
    background-position: center;
-   background-repeat: no-repeat;
    background-size: cover;
    height: 100vh;
+}
+
+.animate__animated {
+   --animate-duration: 1.3s;
 }
 
 .logo {
@@ -21,6 +24,7 @@ body {
 
 footer {
    background-color: #000;
+
 }
 
 footer p {
