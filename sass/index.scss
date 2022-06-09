@@ -1,0 +1,17 @@
+// Normalize
+
+@import './misc/normalize.scss';
+@import './misc/animations.scss';
+
+// Partials
+
+@import './partials/header.scss';
+@import './partials/footer.scss';
+
+// Pages
+
+@import './pages/home.scss';
+@import './pages/nosotros.scss';
+@import './pages/encomiendas.scss';
+@import './pages/carrito.scss';
+@import './pages/cuenta.scss';

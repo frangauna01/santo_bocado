@@ -1,0 +1,39 @@
+// View Encomiendas
+
+#encomiendas {
+   display: grid;
+   grid-template-rows: auto 1fr auto;
+   min-height: 100vh;
+   background-image: url(../img/dulce_quinoto.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+
+   section {
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+      margin-top: 10px;
+      gap: 10px;
+   }
+}
+
+.envios {
+   width: 550px;
+   padding: 30px;
+   text-align: center;
+   background-color: black;
+   color: white;
+   font-size: 26px;
+   border-radius: 20px;
+}
+
+.boton {
+   margin-top: 15px;
+   font-size: 20px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+iframe {
+   margin-bottom: 20px;
+}

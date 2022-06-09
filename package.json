@@ -1,0 +1,26 @@
+{
+  "name": "santo_bocado",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "translate-sass": "node-sass -e scss sass/index.scss css/style.css",
+    "watch-sass": "nodemon -e scss -x \"npm run translate-sass\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frangauna01/santo_bocado.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frangauna01/santo_bocado/issues"
+  },
+  "homepage": "https://github.com/frangauna01/santo_bocado#readme",
+  "description": "",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}

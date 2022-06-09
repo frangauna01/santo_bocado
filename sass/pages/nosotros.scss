@@ -1,0 +1,28 @@
+// View Nosotros
+
+#nosotros {
+   background-image: url(../img/background.jpg);
+}
+
+.sobre-nosotros {
+   text-align: center;
+   font-size: 26px;
+   font-family: 'Times New Roman', Times, serif;
+   padding: 30px;
+}
+
+.fotos-nosotros {
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: center;
+   align-items: center;
+   margin: 30px;
+   
+   img {
+      width: 30%;
+      margin: 5px;
+      flex-grow: 1;
+      border-radius: 10px;
+      border: solid 5px black;
+   }
+}

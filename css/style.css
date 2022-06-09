@@ -1,297 +1,161 @@
 body {
-   margin: 0px;
-   padding: 0px;
-}
-
-#nosotros {
-   background-image: url(../img/background.jpg);
-}
-
-#encomiendas {
-   display: grid;
-   grid-template-rows: auto 1fr auto;
-   min-height: 100vh;
-   background-image: url(../img/dulce_quinoto.jpg);
-   background-size: cover;
-   background-repeat: no-repeat;
-   background-position: center;
-}
-
-#carrito {
-   display: grid;
-   grid-template-rows: auto 1fr auto;
-   min-height: 100vh;
-   background-image: url(../img/fondo-pintado-a-mano-negro.jpg);
-   background-size: cover;
-   background-repeat: no-repeat;
-}
-
-#registro-ingreso {
-   display: grid;
-   grid-template-rows: auto 1fr auto;
-   min-height: 100vh;
-   background-image: linear-gradient(to right bottom, #000000, #000000, #000000, #000000, #000000, #170f10, #26181a, #362121, #5a362e, #7c4f36, #996d3c, #ae9043);
-}
-
-/* HEADER */
-
-header {
-   background-color: #AE9043;
-   height: 120px;
-}
-
-nav {
-   display: flex;
-   justify-content: space-between;
-}
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  background-image: url(../img/bfc707c59c5bf849301dd7460aa8d15e.jpg);
+  background-position: center;
+  background-size: cover;
+  font-size: 18px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
 
 a {
-   font-size: 18px;
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   text-decoration: none;
-   color: black;
-}
-
-.santo-bocado {
-   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-   font-size: 24px;
-   display: flex;
-   align-items: center;
-}
-
-#logo {
-   width: 100px;
-   border-radius: 100px;
-   margin: 10px;
-}
-
-h1 {
-   text-align: center;
-}
-
-.enlaces {
-   display: flex;
-   align-items: center;
-}
-
-#barra-nav {
-   display: flex;
-   list-style-type: none;
-}
-
-header ul {
-   padding: 0px;
-   margin: 0px 10px;
-}
-
-header li {
-   margin: 0px 10px;
-}
-
-/* MAIN */
-
-#banner {
-   background-image: url(../img/banner.jpg);
-   background-size: cover;
-   background-position: center;
-   height: 200px;
-}
+  text-decoration: none;
+  color: black; }
 
 h2 {
-   text-decoration: underline;
-}
+  text-decoration: underline; }
 
-.catalogo {
-   display: flex;
-}
+.animate__animated {
+  --animate-duration: 1.3s; }
 
-#categorias {
-   display: flex;
-   flex-flow: column nowrap;
-   justify-content: space-evenly;
-   font-size: 20px;
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   list-style-type: none;
-   width: 300px;
-   background-color: #C4C4C4;
-   margin: 0px;
-}
+header {
+  background-color: #AE9043;
+  height: 120px; }
 
-#productos-destacados {
-   flex-grow: 1;
-   flex-wrap: wrap;
-   background-color: #AE9043;
-   text-align: center;
-   padding: 30px 0px;
-}
+nav {
+  display: flex;
+  justify-content: space-between; }
 
-.listado-articulos {
-   display: flex;
-   justify-content: center;
-   flex-wrap: wrap;
-   gap: 20px;
-}
+.santo-bocado {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 24px;
+  display: flex;
+  align-items: center; }
 
-.listado-articulos div {
-   display: flex;
-   gap: 50px;
-}
+#logo {
+  width: 100px;
+  border-radius: 100px;
+  margin: 10px; }
 
-.articulo-destacado {
-   background-color: #C4C4C4;
-   width: 300px;
-   padding: 20px;
-   text-align: center;
-   border: 1px solid black;
-}
+.logo {
+  border-radius: 50%;
+  width: 6rem; }
 
-.articulo-destacado img {
-   width: 100px;
-}
+h1 {
+  text-align: center; }
 
-.sobre-nosotros {
-   text-align: center;
-   font-size: 26px;
-   font-family: 'Times New Roman', Times, serif;
-   padding: 30px;
-}
+.enlaces {
+  display: flex;
+  align-items: center; }
 
-.fotos-nosotros {
-   display: flex;
-   flex-flow: row wrap;
-   justify-content: center;
-   align-items: center;
-   margin: 30px;
-}
+#barra-nav {
+  display: flex;
+  list-style-type: none; }
 
-.fotos-nosotros img {
-   width: 30%;
-   margin: 5px;
-   flex-grow: 1;
-   border-radius: 10px;
-   border: solid 5px black;
-}
+header ul {
+  padding: 0px;
+  margin: 0px 10px; }
 
-.envios {
-   width: 550px;
-   padding: 30px;
-   text-align: center;
-   background-color: black;
-   color: white;
-   font-size: 26px;
-   border-radius: 20px;
-}
-
-#encomiendas section {
-   display: flex;
-   flex-flow: column;
-   align-items: center;
-   margin-top: 10px;
-   gap: 10px;
-}
-
-.boton {
-   margin-top: 15px;
-   font-size: 20px;
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-iframe {
-   margin-bottom: 20px;
-}
-
-.titulo-blanco {
-   color: #C4C4C4;
-   margin-left: 40px;
-}
-
-.mis-productos {
-   display: flex;
-   justify-content: space-between;
-   padding: 0px 30px;
-   font-size: 20px;
-   background-color: rgba(250, 250, 250, 0.7);
-}
-
-.mis-productos img {
-   width: 100px;
-}
-
-.mis-productos-div {
-   display: flex;
-   align-items: center;
-   gap: 10px;
-}
-
-.cantidad {
-   font-size: 16px;
-   border: 2px solid black;
-   border-radius: 30px;
-}
-
-.nombre-producto {
-   font-size: 30px;
-   font-weight: bold;
-}
-
-.estilo-carrito {
-   display: flex;
-   flex-flow: column nowrap;
-   justify-content: space-around;
-   height: 70vh;
-   gap: 10px;
-}
-
-#registro-ingreso main {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-}
-
-.datos {
-   display: flex;
-   flex-flow: column nowrap;
-   width: 550px;
-   padding: 30px;
-   text-align: center;
-   background-color: white;
-   color: black;
-   font-size: 26px;
-   border-radius: 20px;
-   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.form-datos {
-   display: flex;
-   flex-flow: column nowrap;
-   align-items: center;
-   gap: 10px;
-}
-
-.form-datos input {
-   width: 300px;
-   padding: 10px;
-   border: 2px solid black;
-   border-radius: 10px;
-}
-
-#boton-ingreso {
-   width: 100px;
-}
-
-.div-datos {
-   display: flex;
-   flex-flow: column;
-}
-
-/* FOOTER */
+header li {
+  margin: 0px 10px; }
 
 footer {
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   padding: 10px;
-   color: white;
-   height: 30px;
-   background-color: black;
-}
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  color: white;
+  height: 30px;
+  background-color: black; }
+
+#nosotros {
+  background-image: url(../img/background.jpg); }
+
+.sobre-nosotros {
+  text-align: center;
+  font-size: 26px;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 30px; }
+
+.fotos-nosotros {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 30px; }
+  .fotos-nosotros img {
+    width: 30%;
+    margin: 5px;
+    flex-grow: 1;
+    border-radius: 10px;
+    border: solid 5px black; }
+
+#encomiendas {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+  background-image: url(../img/dulce_quinoto.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+  #encomiendas section {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px; }
+
+.envios {
+  width: 550px;
+  padding: 30px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-size: 26px;
+  border-radius: 20px; }
+
+.boton {
+  margin-top: 15px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+iframe {
+  margin-bottom: 20px; }
+
+#carrito {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+  background-image: url(../img/fondo-pintado-a-mano-negro.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.titulo-blanco {
+  color: #C4C4C4;
+  margin-left: 40px; }
+
+.estilo-carrito {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  height: 70vh;
+  gap: 10px; }
+  .estilo-carrito article {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+    font-size: 20px;
+    background-color: rgba(250, 250, 250, 0.7); }
+    .estilo-carrito article div {
+      display: flex;
+      align-items: center;
+      gap: 10px; }
+      .estilo-carrito article div img {
+        width: 100px; }
+      .estilo-carrito article div span {
+        font-size: 30px;
+        font-weight: bold; }
+      .estilo-carrito article div select {
+        font-size: 16px;
+        border: 2px solid black;
+        border-radius: 30px; }

@@ -1,0 +1,52 @@
+// Header
+
+header {
+   background-color: #AE9043;
+   height: 120px;
+}
+
+nav {
+   display: flex;
+   justify-content: space-between;
+}
+
+.santo-bocado {
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 24px;
+   display: flex;
+   align-items: center;
+}
+
+#logo {
+   width: 100px;
+   border-radius: 100px;
+   margin: 10px;
+}
+
+.logo {
+   border-radius: 50%;
+   width: 6rem;
+}
+
+h1 {
+   text-align: center;
+}
+
+.enlaces {
+   display: flex;
+   align-items: center;
+}
+
+#barra-nav {
+   display: flex;
+   list-style-type: none;
+}
+
+header ul {
+   padding: 0px;
+   margin: 0px 10px;
+}
+
+header li {
+   margin: 0px 10px;
+}
