@@ -23,6 +23,6 @@
       margin: 5px;
       flex-grow: 1;
       border-radius: 10px;
-      border: solid 5px black;
+      border: solid 5px map-get($colores, negro);
    }
 }

@@ -5,7 +5,7 @@ footer {
    justify-content: space-between;
    align-items: center;
    padding: 10px;
-   color: white;
+   color: map-get($colores, blanco);
    height: 30px;
-   background-color: black;
+   background-color: map-get($colores, negro);
 }
